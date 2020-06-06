@@ -54,7 +54,5 @@ router.get("/logout",  function(req, res){
    res.redirect("/campgrounds");
 });
 
-//middleware   
-
-
+   
 module.exports = router; 
